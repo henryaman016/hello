@@ -1,0 +1,27 @@
+input[name]{
+    color: red;
+}
+
+a:visited{
+    color: goldenrod;
+}
+
+input:focus{
+    border-radius: 20px;
+}
+
+#box{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+    color:beige;
+}
+
+.square{
+    height: 300px;
+    width: 300px;
+    border: 2px solid mediumslateblue;
+    background-color:green;
+}
