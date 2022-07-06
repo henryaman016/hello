@@ -1,0 +1,95 @@
+body{
+  margin: 0px;
+}
+.logo{
+    height: 100px;
+    width: 150px;
+    margin-right:20px ;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div{
+  font-size: 28px;
+  font-weight: 600;
+}
+.navbar{
+  position: sticky;
+  top:0;
+  display:flex;
+  background-color: red;
+  color: yellow;
+  justify-content: space-between;
+  
+}
+
+.navbar>div{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar>div:hover{
+  background-color:rgb(116, 4, 4) ;
+  cursor: pointer;
+}
+ .main-content{
+  display: flex;
+ }
+ .content{
+  text-align: justify;
+  width:70%;
+  font-size: 1.6em;
+  max-height: 75vh;
+  overflow: scroll;
+
+ }
+
+ .sidebar{
+  width: 30%;
+ }
+ .form-input{
+  padding: 5px;
+  border-radius: 4px;
+  width: 100%;
+
+
+ }
+ .form-control{
+  width: 60%;
+  margin:10px auto ;
+ }
+ .form-input::placeholder{
+  color: blueviolet;
+  font-weight: 500;
+ }
+
+ .side{
+  
+  background-color: red;
+  color: yellow;
+  
+  padding-right: 10px;
+  padding-left: 10px;
+
+  
+ }
+ .side>div{
+  
+  font-weight: bold;
+  font-size: 18px;
+  
+  
+  
+
+  
+ }
+ .side>div:hover{
+  background-color:rgb(116, 4, 4) ;
+  cursor: pointer;
+}
