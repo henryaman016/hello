@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.square{
+    visibility:hidden;
+    color: white;
+    background: rgb(230,144,144);
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    padding: 20px 40px;
+    opacity: 70%;
+    border-radius: 30px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+#parent-circle{
+    margin: 40px 20px;
+    width: 80vw;
+    background-color: lightblue;
+    padding: 20px;
+    border-bottom: 4px dashed red;
+    border-top-left-radius: 40px;
+}
